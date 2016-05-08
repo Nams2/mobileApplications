@@ -1,0 +1,40 @@
+
+
+<ion-view view-title="Home">
+    
+   <br/> <br />
+   <div class="item item-avatar bar bar-header bar-light" height="100">
+            <img src="img/happylogo.jpg">
+            <h2><b>Always Be Happy !!!!</b></h2>
+            
+    </div>
+    
+    <div class="item item-body">
+        <h3>VR Home Demo</h3>
+        <video width="90%" height="50%" controls="controls" poster="image" preload="true">
+                        <source src="img/art.mp4" type="video/mov"/>
+                        <source src="img/art.mp4" type="video/mp4" />
+                        <source src="img/art.mp4" type="video/oog" />
+                    
+         </video>
+    </div>
+    
+     <ion-tabs class="tabs-icon-top tabs-positive">
+
+        <ion-tab title="Home" icon="ion-home" href="#/tab/home">
+          <ion-nav-view name="home-tab"></ion-nav-view>
+        </ion-tab>
+
+        <ion-tab title="About" icon="ion-ios-information" href="#/tab/about">
+          <ion-nav-view name="about-tab"></ion-nav-view>
+        </ion-tab>
+
+        <ion-tab title="Contact" icon="ion-ios-world" ui-sref="tabs.contact">
+          <ion-nav-view name="contact-tab"></ion-nav-view>
+        </ion-tab>
+
+      </ion-tabs>
+     
+             
+    <ion-nav-view></ion-nav-view>
+
